@@ -1,0 +1,113 @@
+{
+    "GENERAL": {
+      "YES": "Yes",
+      "NO": "No",
+      "ACTION": "Action",
+      "CREATE": "Create",
+      "SAVE": "Save",
+      "EDIT": "Edit",
+      "CLOSE": "Close",
+      "DELETE": "Delete",
+      "PLEASE_SELECT": "Please Select"
+    },
+    "BOOKING_MENU": {
+      "BOOKING_SEARCH": {
+        "CRITERIA": {
+          "NAME": "Booking name",
+          "TABLE_ID": "Table ID",
+          "TABLE_SIZE": "Table size",
+          "CANCELED": "Canceled",
+          "BOOKING_TYPE": "Type",
+          "BOOKING_DATE": "Booking date",
+          "EXPIRATION_DATE": "Expiration date",
+          "USER_NAME": "User name",
+          "USER_LAST_NAME": "User last name",
+          "USER_EMAIL": "User email",
+          "USER_TOKEN": "User token",
+          "SEARCH": "Search",
+          "SEARCH_TOOLTIP": "Search for bookings with provided criteria",
+          "RESET": "Reset",
+          "RESET_TOOLTIP": "Clear criteria values",
+          "INVALID_EMAIL": "Email-Adresse ist ungültig"
+        },
+  
+        "TABLE": {
+          "HEADER": {
+            "NAME": "Name",
+            "BOOKING_DATE": "Booking date",
+            "EXPIRATION_DATE": "Expiration date",
+            "BOOKING_TYPE": "Type",
+            "TABLE_ID": "Table ID",
+            "CANCELED": "Canceled",
+            "ASSISTANTS": "Number of assistants",
+            "COMMENT": "Comment"
+          }
+        },
+        "ERROR": {
+          "NO_DATA": "No data"
+        }
+      },
+      "BOOKING_CREATE_EDIT": {
+        "EDIT_BOOKING": "Edit booking",
+        "CREATE_BOOKING": "Create a booking",
+        "NAME": "Name",
+        "TABLE_ID": "Table ID",
+        "TABLE_SIZE": "Table size",
+        "CANCELED": "Canceled",
+        "BOOKING_TYPE": "Type",
+        "BOOKING_DATE": "Booking date",
+        "EXPIRATION_DATE": "Expiration date",
+        "ASSISTANTS": "Number of assistants",
+        "TOKEN": "Token",
+        "USER": "User ID",
+        "INVITED_GUESTS": "Invited Guests",
+        "COMMENT": "Comment",
+        "SUBMIT": "Submit",
+        "SUBMIT_TOOLTIP": "Submit editing booking with given data",
+        "CANCEL": "Cancel",
+        "CANCEL_TOOLTIP": "Cancel editing booking.",
+        "EDIT_SUCCESS": "Booking was successfully updated.",
+        "EDIT_ERROR": "Booking was not updated.",
+        "CREATION_SUCCESS": "Booking was successfully created.",
+        "CREATION_ERROR": "Booking was not created.",
+        "FORM_INVALID": "Booking form is invalid.",
+        "BOOKING_DETAILS": "Booking Details"
+      },
+      "BOOKING_DELETE":{
+        "DELETE_BOOKING": "Delete a booking",
+        "MESSAGE": "Are you sure that you want to delete this booking?",
+        "BOOKING_DELETE_SUCESS": "The booking was sucessfully deleted.",
+        "BOOKING_DELETE_ERROR": "Error, the booking could not be deleted."
+      },
+      "GUESTS": {
+        "GUEST_TOKEN": "Guest Token",
+        "EMAIL": "Email",
+        "ACCEPTED": "Accepted",
+        "ORDER_ID": "Order Id"
+      },
+      "BREADCRUMB": "Bookingmanagement"
+    },
+    "TABLE_MENU": {
+      "HEADERS": {
+        "CREATE": "Create table",
+        "EDIT": "Edit table",
+        "LIST": "Table"
+      },
+      "SEATS_NUMBER": "Seats number",
+      "FORM_INVALID": "Table form is invalid.",
+      "CREATE": {
+        "CREATE_SUCCESS": "The table was sucessfully created.",
+        "CREATE_ERROR": "Error, the table could not be created."
+      },
+      "EDIT": {
+        "UPDATE_SUCCESS": "The table was sucessfully updated.",
+        "UPDATE_ERROR": "Error, the table could not be updated."
+      },
+      "DELETE": {
+        "DELETE_HEADER": "Delete a table",
+        "MESSAGE": "Are you sure that you want to delete this table?",
+        "DOCUMENT_DELETE_SUCESS": "The table was sucessfully deleted.",
+        "DOCUMENT_DELETE_ERROR": "Error, the table could not be deleted."
+      }
+    }
+  }

@@ -1,0 +1,113 @@
+{
+    "GENERAL": {
+      "YES": "Ja",
+      "NO": "Nein",
+      "ACTION": "Aktion",
+      "CREATE": "Erstellen",
+      "SAVE": "Speichern",
+      "EDIT": "Bearbeitung",
+      "CLOSE": "Schließen",
+      "DELETE": "Löschen",
+      "PLEASE_SELECT": "Bitte wählen Sie"
+    },
+    "BOOKING_MENU": {
+      "BOOKING_SEARCH": {
+        "CRITERIA": {
+          "NAME": "Reservierungsname",
+          "TABLE_ID": "Tisch-ID",
+          "TABLE_SIZE": "Tischgröse",
+          "CANCELED": "Ist abgesagt?",
+          "BOOKING_TYPE": "Typ",
+          "BOOKING_DATE": "Reservierungsdatum",
+          "EXPIRATION_DATE": "Verfallsdatum",
+          "USER_NAME": "Benutzervorname",
+          "USER_LAST_NAME": "Benutzernachname",
+          "USER_EMAIL": "Email-Adresse",
+          "USER_TOKEN": "Benutzer token",
+          "SEARCH": "Suchen",
+          "SEARCH_TOOLTIP": "Suchen nach Reservierungen mit vorgegeben Kriterien",
+          "RESET": "Zurücksetzen",
+          "RESET_TOOLTIP": "Löschen die vorgegebenen Kriterien",
+          "INVALID_EMAIL": "Email is invalid"
+        },
+        "TABLE": {
+          "HEADER": {
+            "NAME": "Name",
+            "BOOKING_DATE": "Reservierungsdatum",
+            "EXPIRATION_DATE": "Verfallsdatum",
+            "BOOKING_TYPE": "Typ",
+            "TABLE_ID": "Tisch-ID",
+            "CANCELED": "Ist abgesagt?",
+            "ASSISTANTS": "Anzahl von Assistenten",
+            "COMMENT": "Kommentar"
+          }
+        },
+        "ERROR": {
+          "NO_DATA": "Keine Ergebnisse"
+        }
+      },
+      "BOOKING_CREATE_EDIT": {
+        "EDIT_BOOKING": "Reservierung-Aktualisierung",
+        "CREATE_BOOKING": "Reservierung-Erstellung",
+        "NAME": "Name",
+        "TABLE_ID": "Tisch-ID",
+        "TABLE_SIZE": "Tischgröse",
+        "CANCELED": "Abgesagt",
+        "BOOKING_TYPE": "Typ",
+        "BOOKING_DATE": "Reservierungsdatum",
+        "EXPIRATION_DATE": "Verfallsdatum",
+        "ASSISTANTS": "Anzahl von Assistenten",
+        "TOKEN": "Token",
+        "USER": "Benutzer-ID",
+        "INVITED_GUESTS": "Eingeladene Gäste",
+        "COMMENT": "Kommentar",
+        "SUBMIT": "Aktualisieren",
+        "SUBMIT_TOOLTIP": "Aktualisieren einer Reservierung mit den vorgegeben Daten",
+        "CANCEL": "Abbrechen",
+        "CANCEL_TOOLTIP": "Reservierungs bearbeiten abbrechen",
+        "BREADCRUMB": "Reservierung bearbeiten",
+        "EDIT_SUCCESS": "Reservierung wurde erfolgreich aktualisiert.",
+        "EDIT_ERROR": "Reservierung wurde nicht aktualisiert.",
+        "CREATION_SUCCESS": "Reservierung wurde erfolgreich erstellt.",
+        "CREATION_ERROR": "Reservierung wurde nicht erstellt.",
+        "FORM_INVALID": "Reservierungsformular ist ungültig",
+        "BOOKING_DETAILS": "Reservierung-Details"
+      },
+      "BOOKING_DELETE":{
+        "DELETE_BOOKING": "Löschen eine Reservierung",
+        "MESSAGE": "Sind Sie sicher, dass Sie diese Reservierung löschen möchten?",
+        "BOOKING_DELETE_SUCESS": "Die Reservierung wurde erfolgreich gelöscht.",
+        "BOOKING_DELETE_ERROR": "Fehler, die Reservierung konnte nicht gelöscht werden."
+      },
+      "GUESTS":{
+        "GUEST_TOKEN": "Gast-Token",
+        "EMAIL": "Email",
+        "ACCEPTED": "Bestätigt",
+        "ORDER_ID": "Bestellung-Id"
+      },
+      "BREADCRUMB": "Reservierungsmanagement"
+    },
+    "TABLE_MENU": {
+      "HEADERS": {
+        "CREATE": "Tisch-Erstellung",
+        "EDIT": "Tisch-Bearbeitung",
+        "LIST": "Tisch"
+      },
+      "SEATS_NUMBER": "Sitzplatznummer",
+      "FORM_INVALID": "Tischformular ist ungültig.",
+      "CREATE": {
+        "CREATE_SUCCESS": "Der Tisch wurde erfolgreich erstellen.",
+        "CREATE_ERROR": "Fehler, der Tisch konnte nicht erstellen werden."
+      },
+      "EDIT": {
+        "UPDATE_SUCCESS": "Der Tisch wurde erfolgreich aktualisieren.",
+        "UPDATE_ERROR": "Fehler, der Tisch konnte nicht aktualisieren werden."
+      },
+      "DELETE": {
+        "DELETE_HEADER": "Löschen einen Tisch",
+        "MESSAGE": "Sind Sie sicher, dass Sie dieser Tisch löschen möchten?",
+        "DELETE_SUCCESS": "Der Tisch wurde erfolgreich gelöscht.",
+        "DELETE_ERROR": "Fehler, der Tisch konnte nicht gelöscht werden."
+      }
+    }
+  }
