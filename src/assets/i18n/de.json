@@ -10,9 +10,14 @@
       "DELETE": "Löschen",
       "PLEASE_SELECT": "Bitte wählen Sie"
     },
-    "BOOKING_MENU": {
-      "BOOKING_SEARCH": {
+    "BOOK_MENU": {
+      "BOOK_SEARCH": {
         "CRITERIA": {
+          "TITLE": "Buchtitel",
+          "ISBN": "ISBN",
+          "BOOK_CATEGORY": "Buchkategorie",
+          "BOOK_PAGES": "Buchseiten",
+          "AUTHOR_ID": "Autoren-ID",
           "NAME": "Reservierungsname",
           "TABLE_ID": "Tisch-ID",
           "TABLE_SIZE": "Tischgröse",

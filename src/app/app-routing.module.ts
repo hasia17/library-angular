@@ -3,13 +3,13 @@ import { PreloadAllModules, RouterModule, Routes } from "@angular/router";
 import { TranslateModule } from "@ngx-translate/core";
 
 const routes: Routes = [
-  // {
-  //   path: '',
-  //   loadChildren: () =>
-  //     import('src/app/test/test.module').then(
-  //       (m) => m.TestModule
-  //     )
-  // },
+  {
+    path: '',
+    loadChildren: () =>
+      import('src/app/modules/book-search/book-search.module').then(
+        (m) => m.BookSearchModule
+      )
+  },
   {
     path: 'a',
     loadChildren: () =>
@@ -21,4 +21,9 @@ const routes: Routes = [
 
 @NgModule({
     imports: [RouterModule.forRoot(routes, {
-      relativeLinkResolutio
+      relativeLinkResolution: 'legacy',
+      preloadingStrategy: PreloadAllModules,
+    }), TranslateModule],
+    exports: [RouterModule]
+  })
+  export class AppRoutingModule { }

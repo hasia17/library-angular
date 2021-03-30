@@ -10,9 +10,14 @@
       "DELETE": "Delete",
       "PLEASE_SELECT": "Please Select"
     },
-    "BOOKING_MENU": {
-      "BOOKING_SEARCH": {
+    "BOOK_MENU": {
+      "BOOK_SEARCH": {
         "CRITERIA": {
+          "TITLE": "Book title",
+          "ISBN": "ISBN",
+          "BOOK_CATEGORY": "Book category",
+          "BOOK_PAGES": "Book pages",
+          "AUTHOR_ID": "AuthorID",
           "NAME": "Booking name",
           "TABLE_ID": "Table ID",
           "TABLE_SIZE": "Table size",
