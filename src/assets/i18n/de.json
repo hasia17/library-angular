@@ -37,11 +37,11 @@
         },
         "TABLE": {
           "HEADER": {
-            "NAME": "Name",
-            "BOOKING_DATE": "Reservierungsdatum",
-            "EXPIRATION_DATE": "Verfallsdatum",
-            "BOOKING_TYPE": "Typ",
-            "TABLE_ID": "Tisch-ID",
+            "TITLE": "Buchtitel",
+            "ISBN": "ISBN",
+            "BOOK_CATEGORY": "Buchkategorie",
+            "BOOK_PAGES": "Buchseiten",
+            "AUTHOR_ID": "Autoren-ID",
             "CANCELED": "Ist abgesagt?",
             "ASSISTANTS": "Anzahl von Assistenten",
             "COMMENT": "Kommentar"
@@ -51,9 +51,9 @@
           "NO_DATA": "Keine Ergebnisse"
         }
       },
-      "BOOKING_CREATE_EDIT": {
-        "EDIT_BOOKING": "Reservierung-Aktualisierung",
-        "CREATE_BOOKING": "Reservierung-Erstellung",
+      "BOOK_CREATE_EDIT": {
+        "EDIT_BOOK": "Reservierung-Aktualisierung",
+        "CREATE_BOOK": "Reservierung-Erstellung",
         "NAME": "Name",
         "TABLE_ID": "Tisch-ID",
         "TABLE_SIZE": "Tischgröse",
@@ -78,11 +78,11 @@
         "FORM_INVALID": "Reservierungsformular ist ungültig",
         "BOOKING_DETAILS": "Reservierung-Details"
       },
-      "BOOKING_DELETE":{
+      "BOOK_DELETE":{
         "DELETE_BOOKING": "Löschen eine Reservierung",
         "MESSAGE": "Sind Sie sicher, dass Sie diese Reservierung löschen möchten?",
-        "BOOKING_DELETE_SUCESS": "Die Reservierung wurde erfolgreich gelöscht.",
-        "BOOKING_DELETE_ERROR": "Fehler, die Reservierung konnte nicht gelöscht werden."
+        "BOOK_DELETE_SUCESS": "Die Reservierung wurde erfolgreich gelöscht.",
+        "BOOK_DELETE_ERROR": "Fehler, die Reservierung konnte nicht gelöscht werden."
       },
       "GUESTS":{
         "GUEST_TOKEN": "Gast-Token",
