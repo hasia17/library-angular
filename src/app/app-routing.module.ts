@@ -4,10 +4,17 @@ import { TranslateModule } from "@ngx-translate/core";
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'search',
     loadChildren: () =>
       import('src/app/modules/book-search/book-search.module').then(
         (m) => m.BookSearchModule
+      )
+  },
+  {
+    path: 'detail',
+    loadChildren: () =>
+      import('src/app/modules/book-detail/book-detail.module').then(
+        (m) => m.BookDetailModule
       )
   },
   {
