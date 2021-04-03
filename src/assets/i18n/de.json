@@ -74,6 +74,37 @@
       },
       "BREADCRUMB": "Reservierungsmanagement"
     },
+    "AUTHOR_MENU": {
+      "AUTHOR_SEARCH": {
+        "CRITERIA": {
+          "NAME": "NAME",
+          "LAST_NAME": "VORNAME",
+          "AGE": "ALTER",
+          "SEARCH": "Search",
+          "SEARCH_TOOLTIP": "Search for bookings with provided criteria",
+          "RESET": "Reset",
+          "RESET_TOOLTIP": "Clear criteria values",
+          "INVALID_EMAIL": "Email-address is incorrect"
+        }
+      },
+      "AUTHOR_CREATE_EDIT": {
+        "EDIT_AUTHOR": "Edit Author",
+        "CREATE_AUTHOR": "Create a Author",
+        "NAME": "NAME",
+        "LAST_NAME": "LAST NAME",
+        "AGE": "AGE",
+        "SUBMIT": "Submit",
+        "SUBMIT_TOOLTIP": "Submit editing Author with given data",
+        "CANCEL": "Cancel",
+        "CANCEL_TOOLTIP": "Cancel editing Author.",
+        "EDIT_SUCCESS": "Author was successfully updated.",
+        "EDIT_ERROR": "Author was not updated.",
+        "CREATION_SUCCESS": "Author was successfully created.",
+        "CREATION_ERROR": "Author was not created.",
+        "FORM_INVALID": "Author form is invalid.",
+        "AUTHOR_DETAILS": "Author Details"
+      }
+    },
     "TABLE_MENU": {
       "HEADERS": {
         "CREATE": "Tisch-Erstellung",

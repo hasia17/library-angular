@@ -41,7 +41,7 @@ const authModule = environment.production ? AuthModule : MockAuthModule;
   ],
   providers: [
     { provide: APP_CONFIG, useValue: environment },
-    { provide: BASE_PATH, useValue: 'angular-library' },
+    { provide: BASE_PATH, useValue: 'angular-library-api' },
     {provide:  MessageService}
   ],
   bootstrap: [AppComponent]

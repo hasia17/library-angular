@@ -76,6 +76,9 @@
           "configurations": {
             "production": {
               "browserTarget": "angular-library:build:production"
+            },
+            "dev": {
+              "browserTarget": "angular-library:build:dev"
             }
           }
         },

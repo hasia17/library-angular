@@ -1,6 +1,10 @@
 {
-    "/search": {
-      "target": "http://localhost:8080/books",
-      "secure": false
-    }
+  "/angular-library-api": {
+    "target": "http://localhost:8080/",
+    "secure": false,
+    "pathRewrite": {
+      "^/angular-library-api": ""
+    },
+    "changeOrigin":  true
   }
+}

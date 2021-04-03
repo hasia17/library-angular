@@ -10,6 +10,13 @@ const routes: Routes = [
         (m) => m.BookSearchModule
       )
   },
+    {
+    path: 'searchAuthor',
+    loadChildren: () =>
+      import('src/app/modules/author-search/author-search.module').then(
+        (m) => m.AuthorSearchModule
+      )
+  },
   {
     path: 'detail',
     loadChildren: () =>
@@ -17,6 +24,14 @@ const routes: Routes = [
         (m) => m.BookDetailModule
       )
   },
+  {
+    path: 'author',
+    loadChildren: () =>
+      import('src/app/modules/author-detail/author-detail.module').then(
+        (m) => m.AuthorDetailModule
+      )
+  },
+  
   {
     path: 'a',
     loadChildren: () =>
