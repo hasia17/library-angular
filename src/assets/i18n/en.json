@@ -18,6 +18,7 @@
           "BOOK_CATEGORY": "Book category",
           "BOOK_PAGES": "Book pages",
           "AUTHOR_ID": "AuthorID",
+          "AUTHOR_LAST_NAME": "Author last name",
           "SEARCH": "Search",
           "SEARCH_TOOLTIP": "Search for bookings with provided criteria",
           "RESET": "Reset",
@@ -62,10 +63,10 @@
         "BOOK_DETAILS": "Book Details"
       },
       "BOOK_DELETE":{
-        "DELETE_BOOK": "Delete a booking",
+        "DELETE_BOOK": "Delete a book",
         "MESSAGE": "Are you sure that you want to delete this booking?",
-        "BOOK_DELETE_SUCESS": "The booking was sucessfully deleted.",
-        "BOOK_DELETE_ERROR": "Error, the booking could not be deleted."
+        "BOOK_DELETE_SUCCESS": "The book was sucessfully deleted.",
+        "BOOK_DELETE_ERROR": "Error, the book could not be deleted."
       },
       "GUESTS": {
         "GUEST_TOKEN": "Guest Token",
@@ -74,6 +75,12 @@
         "ORDER_ID": "Order Id"
       },
       "BREADCRUMB": "Bookingmanagement"
+    },
+    "AUTHOR_DELETE":{
+      "DELETE_AUTHOR": "Delete a author",
+      "MESSAGE": "Are you sure that you want to delete this booking?",
+      "AUTHOR_DELETE_SUCCESS": "The author was sucessfully deleted.",
+      "AUTHOR_DELETE_ERROR": "Error, the author could not be deleted."
     },
     "AUTHOR_MENU": {
       "AUTHOR_SEARCH": {

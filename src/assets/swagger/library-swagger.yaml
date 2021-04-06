@@ -166,6 +166,10 @@ paths:
         in: query
         schema:
           type: string
+      - name: authorLastName
+        in: query
+        schema:
+          type: string
       - name: category
         in: query
         schema:
@@ -430,7 +434,7 @@ components:
           type: integer
         id:
           type: string
-        authorDTO:
+        author:
           $ref: '#/components/schemas/AuthorDTO'
         category:
           $ref: '#/components/schemas/Category'

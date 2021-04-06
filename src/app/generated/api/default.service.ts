@@ -62,6 +62,7 @@ export interface GetBookByIdRequestParams {
 
 export interface GetBooksByCriteriaRequestParams {
     authorID?: string;
+    authorLastName?: string;
     category?: Category;
     isbn?: string;
     page?: number;
@@ -513,6 +514,7 @@ export class DefaultAPIService {
     public getBooksByCriteria(requestParameters: GetBooksByCriteriaRequestParams, observe?: 'events', reportProgress?: boolean, options?: {httpHeaderAccept?: 'application/json'}): Observable<HttpEvent<PageResultDTO>>;
     public getBooksByCriteria(requestParameters: GetBooksByCriteriaRequestParams, observe: any = 'body', reportProgress: boolean = false, options?: {httpHeaderAccept?: 'application/json'}): Observable<any> {
         const authorID = requestParameters.authorID;
+        const authorLastName = requestParameters.authorLastName;
         const category = requestParameters.category;
         const isbn = requestParameters.isbn;
         const page = requestParameters.page;
@@ -524,6 +526,10 @@ export class DefaultAPIService {
         if (authorID !== undefined && authorID !== null) {
           queryParameters = this.addToHttpParams(queryParameters,
             <any>authorID, 'authorID');
+        }
+        if (authorLastName !== undefined && authorLastName !== null) {
+          queryParameters = this.addToHttpParams(queryParameters,
+            <any>authorLastName, 'authorLastName');
         }
         if (category !== undefined && category !== null) {
           queryParameters = this.addToHttpParams(queryParameters,

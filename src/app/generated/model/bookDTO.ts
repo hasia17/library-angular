@@ -20,7 +20,7 @@ export interface BookDTO {
     modificationUser?: string;
     version?: number;
     id?: string;
-    authorDTO?: AuthorDTO;
+    author?: AuthorDTO;
     category?: Category;
     isbn?: string;
     pages?: number;

@@ -18,6 +18,7 @@
           "BOOK_CATEGORY": "Buchkategorie",
           "BOOK_PAGES": "Buchseiten",
           "AUTHOR_ID": "Autoren-ID",
+          "AUTHOR_LAST_NAME": "Vorname des Autors",
           "SEARCH": "Suchen",
           "SEARCH_TOOLTIP": "Suchen nach Reservierungen mit vorgegeben Kriterien",
           "RESET": "Zurücksetzen",
@@ -61,10 +62,10 @@
         "BOOK_DETAILS": "Buchdetails"
       },
       "BOOK_DELETE":{
-        "DELETE_BOOKING": "Löschen eine Reservierung",
+        "DELETE_BOOK": "Löschen ein Buch",
         "MESSAGE": "Sind Sie sicher, dass Sie diese Reservierung löschen möchten?",
-        "BOOK_DELETE_SUCESS": "Die Reservierung wurde erfolgreich gelöscht.",
-        "BOOK_DELETE_ERROR": "Fehler, die Reservierung konnte nicht gelöscht werden."
+        "BOOK_DELETE_SUCCESS": "Das Buch wurde erfolgreich gelöscht.",
+        "BOOK_DELETE_ERROR": "Fehler, das Buch konnte nicht gelöscht werden."
       },
       "GUESTS":{
         "GUEST_TOKEN": "Gast-Token",
@@ -91,8 +92,8 @@
         "EDIT_AUTHOR": "Edit Author",
         "CREATE_AUTHOR": "Create a Author",
         "NAME": "NAME",
-        "LAST_NAME": "LAST NAME",
-        "AGE": "AGE",
+        "LAST_NAME": "VORNAME",
+        "AGE": "ALTER",
         "SUBMIT": "Submit",
         "SUBMIT_TOOLTIP": "Submit editing Author with given data",
         "CANCEL": "Cancel",
@@ -103,6 +104,12 @@
         "CREATION_ERROR": "Author was not created.",
         "FORM_INVALID": "Author form is invalid.",
         "AUTHOR_DETAILS": "Author Details"
+      },
+      "AUTHOR_DELETE":{
+        "DELETE_AUTHOR": "Löschen einen Autor",
+        "MESSAGE": "Sind Sie sicher, dass Sie diese Reservierung löschen möchten?",
+        "AUTHOR_DELETE_SUCCESS": "Der Autor wurde erfolgreich gelöscht.",
+        "AUTHOR_DELETE_ERROR": "Fehler, der Autor konnte nicht gelöscht werden."
       }
     },
     "TABLE_MENU": {
