@@ -1,0 +1,7 @@
+PERMISSION NAME;PERMISSION_KEY;libraryUser;libraryWorker
+Create a new author;PORTAL#CREATE_AUTHOR;;x
+Search author by criteria;PORTAL#SEARCH_AUTHOR;x;x
+Create a new book;PORTAL#CREATE_BOOK;;x
+Search book by criteria;PORTAL#SEARCH_BOOK;x;x
+Search book by criteria2;PORTAL#SEARCH_BOOK2;x;
+

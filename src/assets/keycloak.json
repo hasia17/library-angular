@@ -1,7 +1,7 @@
 
 {
-    "realm": "master",
-    "auth-server-url": "${KEYCLOAK_URL}",
+    "realm": "GigabitHub",
+    "auth-server-url": "http://keycloak-app/auth",
     "ssl-required": "external",
     "resource": "angular-library",
     "public-client": true,

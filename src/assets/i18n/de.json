@@ -8,7 +8,12 @@
       "EDIT": "Bearbeitung",
       "CLOSE": "Schließen",
       "DELETE": "Löschen",
-      "PLEASE_SELECT": "Bitte wählen Sie"
+      "PLEASE_SELECT": "Bitte wählen Sie",
+      "MENU_TITLE": "Was möchten Sie tun?",
+      "FIND_BOOK": "Ein Buch finden",
+      "FIND_AUTHOR": "Einen Autor finden",
+      "CREATE_BOOK": "Ein Buch erstellen",
+      "CREATE_AUTHOR": "Einen Autor erstellen" 
     },
     "BOOK_MENU": {
       "BOOK_SEARCH": {

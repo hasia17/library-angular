@@ -8,7 +8,13 @@
       "EDIT": "Edit",
       "CLOSE": "Close",
       "DELETE": "Delete",
-      "PLEASE_SELECT": "Please Select"
+      "PLEASE_SELECT": "Please Select",
+      "MENU_TITLE": "What do you want to do?",
+      "FIND_BOOK": "Find book",
+      "FIND_AUTHOR": "Find author",
+      "CREATE_BOOK": "Create book",
+      "CREATE_AUTHOR": "Create author" 
+
     },
     "BOOK_MENU": {
       "BOOK_SEARCH": {

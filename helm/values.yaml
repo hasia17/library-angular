@@ -1,0 +1,9 @@
+app:
+  image:
+    repository: "1000kit/${project.name}"
+    tag: ${project.version}
+  routing:
+    enabled: true
+  env:
+    KEYCLOAK_URL: https://secure-keycloak2-test.apps.openshift1.1000kit.net/auth/
+    JAEGER_URL: https://jaeger-test.apps.openshift1.1000kit.net/

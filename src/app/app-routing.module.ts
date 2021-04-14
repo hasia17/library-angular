@@ -31,7 +31,13 @@ const routes: Routes = [
         (m) => m.AuthorDetailModule
       )
   },
-  
+  {
+    path: '',
+    loadChildren: () =>
+      import('src/app/modules/start-menu/start-menu.module').then(
+        (m) => m.StartMenuModule
+      )
+  },
   {
     path: 'a',
     loadChildren: () =>
